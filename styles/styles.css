@@ -157,3 +157,118 @@ footer{
     
     font-size: 1.5em;
 }
+
+/* ==========================================================  meadia query ======================================================
+===================================================================================================================================== */
+@media only screen and (max-width:668px){
+    .header-top{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 850px;
+    }
+    .top-left .top-text{
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+    .top-left:hover .top-text{
+        transform: scale(1.1);
+        transition: transform 2s ease-in-out;
+    }
+    .top-img img{
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    .social-icon{
+        margin-left: 32%; 
+    }
+    .footer-last{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 850px;
+    }
+    .last-left .last-text{
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+    .last-img img{
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    .contuct{
+        margin-top: 100px;
+    }
+    .field{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .gender{
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-bottom: 30px;
+    }
+    .age{
+        margin-left: 120px;
+    }
+}
+/* ==========================================================  meadia query for tab ======================================================
+===================================================================================================================================== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header-top{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 600px;
+        align-items: center;
+    }
+    .top-left .top-text{
+        padding-top: 35px;
+        padding-left: 40px;
+    }
+    .top-left:hover .top-text{
+        transform: scale(1.1);
+        transition: transform 2s ease-in-out;
+    }
+    .top-img img{
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+    .footer-last{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 600px;
+        align-items: center;
+    }
+    .last-left .last-text{
+        padding-top: 35px;
+        padding-left: 40px;
+    }
+    .last-img img{
+        width: 100%;
+        position: relative;
+        top: 40px;
+    }
+    .contuct{
+        margin-top: 100px;
+    }
+    .field{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .gender{
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-bottom: 30px;
+    }
+    .age{
+        margin-left: 300px;
+    }
+    .social-icon{
+        margin-left: 32%; 
+    }
+
+    
+}
