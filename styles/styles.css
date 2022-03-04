@@ -1,0 +1,42 @@
+/* utilities */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* ==========================================================  header top ======================================================
+===================================================================================================================================== */
+.header-top{
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    background-color: navy;
+}
+.top-left .top-text{
+    padding-top: 200px;
+    padding-left: 170px;
+}
+.top-text h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #ffffff;
+}
+.top-text a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: rgb(216, 65, 65);
+    color: #ffffff;
+}
+.top-left:hover .top-text{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+.top-right:hover .top-img{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+.top-img img{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    
+}
